@@ -1,0 +1,55 @@
+{
+    "name": "konnectit/laravel-permission-ui",
+    "description": "A UI addon to the Spatie's 'laravel-permission'-package",
+    "keywords": [
+        "konnectit",
+        "laravel-permission",
+        "laravel-permission-ui"
+    ],
+    "homepage": "https://github.com/konnectit/laravel-permission-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin Heij",
+            "email": "e.heij@konnectit.nl",
+            "homepage": "https://konnectit.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "orchestra/testbench": "^3.7"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KonnectIT\\Skeleton\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KonnectIT\\Skeleton\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KonnectIT\\Skeleton\\SkeletonServiceProvider"
+            ],
+            "aliases": {
+                "Skeleton": "KonnectIT\\Skeleton\\SkeletonFacade"
+            }
+        }
+    }
+}
