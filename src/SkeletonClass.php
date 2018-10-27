@@ -1,6 +1,6 @@
 <?php
 
-namespace KonnectIT\Skeleton;
+namespace KonnectIT\PermissionUi;
 
 class SkeletonClass
 {
@@ -20,6 +20,7 @@ class SkeletonClass
      */
     public function echoPhrase($phrase)
     {
+        print('adsf');
         return $phrase;
     }
 }

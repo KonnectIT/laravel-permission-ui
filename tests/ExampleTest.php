@@ -1,6 +1,6 @@
 <?php
 
-namespace KonnectIT\Skeleton\Tests;
+namespace KonnectIT\PermissionUi\Tests;
 
 use PHPUnit\Framework\TestCase;
 

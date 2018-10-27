@@ -1,11 +1,11 @@
 <?php
 
-namespace KonnectIT\Skeleton;
+namespace KonnectIT\PermissionUi;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \KonnectIT\Skeleton\SkeletonClass
+ * @see \KonnectIT\PermissionUi\SkeletonClass
  */
 class SkeletonFacade extends Facade
 {
